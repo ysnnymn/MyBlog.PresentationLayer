@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyBlog.BusinessLayer\MyBlog.BusinessLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.28">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Category\" />
+    <None Remove="Views\Tag\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Category\" />
+    <Folder Include="Views\Tag\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\foodeiblog-master\fonts\ElegantIcons.svg" />
+    <None Include="wwwroot\foodeiblog-master\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\foodeiblog-master\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\foodeiblog-master\js\bootstrap.min.js" />
+    <None Include="wwwroot\foodeiblog-master\js\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\foodeiblog-master\js\jquery.slicknav.js" />
+    <None Include="wwwroot\foodeiblog-master\js\main.js" />
+    <None Include="wwwroot\foodeiblog-master\js\owl.carousel.min.js" />
+    <None Include="wwwroot\foodeiblog-master\sass\style.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_404.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_about-page.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_base.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_categories.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_contact.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_footer.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_header.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_hero.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_mixins.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_responsive.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_sidebar.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_signin.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_single-post.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_typography.scss" />
+    <None Include="wwwroot\foodeiblog-master\sass\_variable.scss" />
+    <None Include="wwwroot\foodeiblog-master\Source\bootstrap-4.4.1-dist.zip" />
+    <None Include="wwwroot\foodeiblog-master\Source\font-awesome-4.7.0.zip" />
+    <None Include="wwwroot\foodeiblog-master\Source\OwlCarousel2-2.3.4.zip" />
+    <None Include="wwwroot\foodeiblog-master\Source\SlickNav-master.zip" />
+  </ItemGroup>
+</Project>
