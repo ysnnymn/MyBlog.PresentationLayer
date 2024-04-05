@@ -16,6 +16,7 @@ namespace MyProject.DataAccessLayer.Context
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Writer> Writers { get; set; }
+        public DbSet<SocialMedia> SocialMedias { get; set; }
     }
 }
 
