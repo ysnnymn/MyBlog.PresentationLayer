@@ -162,11 +162,7 @@
                             <a href="#"><i class="fa fa-envelope-o"></i></a>
                         </div>
                     </div>
-                    <div class="footer__copyright">
-                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
+                    @await Component.InvokeAsync("_CopyrightComponentPartial")
                 </div>
             </div>
         </div>
@@ -182,14 +178,8 @@
             </form>
         </div>
     </div>
-    <!-- Search End -->
-
-    <!-- Js Plugins -->
-    <script src="~/foodeiblog-master/js/jquery-3.3.1.min.js"></script>
-    <script src="~/foodeiblog-master/js/bootstrap.min.js"></script>
-    <script src="~/foodeiblog-master/js/jquery.slicknav.js"></script>
-    <script src="~/foodeiblog-master/js/owl.carousel.min.js"></script>
-    <script src="~/foodeiblog-master/js/main.js"></script>
+    @await Component.InvokeAsync("_ScriptComponentPartial")
+  
 </body>
 
 </html>

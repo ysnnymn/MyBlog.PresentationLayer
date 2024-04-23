@@ -1,6 +1,9 @@
 ﻿using MyBlog.BusinessLayer.Abstract;
 using MyBlog.BusinessLayer.Concrete;
+using MyBlog.EntitiyLayer.Concrete;
+using MyBlog.PresentationLayer.Models;
 using MyProject.DataAccessLayer.Abstract;
+using MyProject.DataAccessLayer.Context;
 using MyProject.DataAccessLayer.EntityFramework;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +18,8 @@ builder.Services.AddScoped<IArticleDal, EfArticleDal>();
 
 builder.Services.AddScoped<ISocialMediaService, SocialMediaManager>();
 builder.Services.AddScoped<ISocialMediaDal, EfSocialMediaDal>();
+builder.Services.AddDbContext<BlogContext>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<BlogContext>().AddErrorDescriber<CustomIdentityValidator>();
 
 builder.Services.AddControllersWithViews();
 
@@ -32,11 +37,20 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
 
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+    );
+});
+
 
 app.Run();
