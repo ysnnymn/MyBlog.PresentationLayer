@@ -10,4 +10,8 @@
       <ProjectReference Include="..\MyBlog.BusinessLayer\MyBlog.BusinessLayer.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot\Templates\" />
+    </ItemGroup>
+
 </Project>

@@ -6,12 +6,9 @@ namespace MyBlog.DataAccessLayer.Repositories;
 
 public class GenericRepository<T>:IGenericDal<T> where T:class
 {
-    private readonly BlogContext _context;
+   BlogContext _context=new BlogContext();
 
-    public GenericRepository(BlogContext context)
-    {
-        _context = context;
-    }
+  
 
     public void Insert(T entity)
     {

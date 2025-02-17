@@ -15,12 +15,56 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Category/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Category/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVmYXVsdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Shared/Components/_AboutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Fib3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Shared/Components/_BlogListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Jsb2dMaXN0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Shared/Components/_CategoryComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0NhdGVnb3J5Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Shared/Components/_DefaultHeadComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0RlZmF1bHRIZWFkQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Shared/Components/_NavbarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX05hdmJhckNvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Shared/Components/_SidebarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NpZGViYXJDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Shared/Components/_SocialMediaComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NvY2lhbE1lZGlhQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Shared/Error.cshtml]

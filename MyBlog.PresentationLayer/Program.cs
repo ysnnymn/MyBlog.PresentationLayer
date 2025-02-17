@@ -1,4 +1,17 @@
+using MyBlog.BusinessLayer.Abstract;
+using MyBlog.BusinessLayer.Concrete;
+using MyBlog.DataAccessLayer.Abstract;
+using MyBlog.DataAccessLayer.EntityFramework;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<ICategoryService, CategoryManager>();
+builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
+
+builder.Services.AddScoped<IArticleService, ArticleManager>();
+builder.Services.AddScoped<IArticleDal, EfArticleDal>();
+
+builder.Services.AddScoped<ISocialMediaService, SocialMediaManager>();
+builder.Services.AddScoped<ISocialMediaDal, EfSocialMediaDal>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
