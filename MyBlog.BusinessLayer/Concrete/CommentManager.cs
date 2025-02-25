@@ -39,4 +39,9 @@ return   _commentDal.GetById(id);
 return    _commentDal.GetListAll();
 
     }
+
+    public List<Comment> TGetCommentsByBlog(int id)
+    {
+        return _commentDal.GetCommentsByBlog(id);
+    }
 }

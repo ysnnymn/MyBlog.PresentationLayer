@@ -49,4 +49,14 @@ _articleDal.Delete(id);
     {
         return _articleDal.GetArticlesWithCategoryByWriter(id);
     }
+
+    public List<Article> TGetArticlesWithCategory()
+    {
+        return _articleDal.GetArticlesWithCategory();
+    }
+
+    public Article TGetArticleWithCategoryByArticleId(int id)
+    {
+        return _articleDal.GetArticleWithCategoryByArticleId(id);
+    }
 }

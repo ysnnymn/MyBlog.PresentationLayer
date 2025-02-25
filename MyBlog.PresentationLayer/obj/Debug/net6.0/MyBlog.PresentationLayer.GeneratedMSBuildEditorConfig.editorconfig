@@ -39,6 +39,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Blog/BlogDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9CbG9nRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Category/CreateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -85,6 +89,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Shared/Components/_CategoryComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0NhdGVnb3J5Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Shared/Components/_CommentListByBlogComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0NvbW1lbnRMaXN0QnlCbG9nQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/yasinyaman/Desktop/M&Y Akademi/MyBlog.PresentationLayer/MyBlog.PresentationLayer/Views/Shared/Components/_DefaultHeadComponentPartial/Default.cshtml]
